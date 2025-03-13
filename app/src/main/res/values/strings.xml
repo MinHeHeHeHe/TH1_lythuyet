@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TableLayout</string>
+    <string name="giao_dien_1">Giao diện 1</string>
+    <string name="open">Open…</string>
+    <string name="save_as">Save As…</string>
+    <string name="more">More…</string>
+    <string name="close">Close…</string>
+    <string name="type_here">Type here:</string>
+    <string name="nhap_noi_dung_vao_day">Nhập nội dung vào đây</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>

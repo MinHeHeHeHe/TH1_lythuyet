@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#DA1A1A1A">
+
+    <!-- Thêm ID để dễ quản lý -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#38FFFFFF"
+        android:padding="8dp"
+        android:text="@string/giao_dien_1"
+        android:textColor="#B4FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="@string/type_here"
+        android:textColor="#AEFFFFFF" />
+
+    <EditText
+        android:id="@+id/entry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label"
+        android:autofillHints="username"
+        android:background="@android:drawable/editbox_background"
+        android:hint="@string/nhap_noi_dung_vao_day"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entry"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dip"
+        android:text="@string/ok"
+        />
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ok"
+        android:layout_toStartOf="@id/ok"
+
+        android:text="@string/cancel"
+        android:textColor="#E0FFFFFF " />
+
+</RelativeLayout>

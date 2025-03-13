@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E5000000"
+    android:stretchColumns="1">
+
+    <TextView
+        android:background="#8CFFFFFF"
+        android:text="@string/giao_dien_1"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:padding="3dip" />
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/open"
+            android:textColor="#808080" />
+
+        <TextView
+            android:gravity="end"
+            android:padding="3dip"
+            android:text="@string/save_as"
+            android:textColor="#808080" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:padding="3dip"
+            android:text="@string/close"
+            android:textColor="#808080" />
+
+        <TextView
+            android:gravity="end"
+            android:padding="3dip"
+            android:text="@string/more"
+            android:textColor="#808080" />
+    </TableRow>
+</TableLayout>
